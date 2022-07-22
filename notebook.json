@@ -1,1 +1,1759 @@
-[{"references":[],"_id":"local-autoincrementers","_rev":"4-df5435eaf28e143833e9c382a2fe4a03"},{"is_attachment":false,"metadata":{"accessFORM1":["admin"]},"_id":"project-metadata-access","_rev":"4-8d13860992be25703e6873e9073f7ab4"},{"is_attachment":false,"metadata":["admin","moderator","team"],"_id":"project-metadata-accesses","_rev":"4-02e55c7496534fe02ea415ccfb2784fa"},{"is_attachment":false,"metadata":{},"_id":"project-metadata-behavious","_rev":"4-848bf9b76d08b04f1e53d02b3e09a9e2"},{"is_attachment":false,"metadata":[],"_id":"project-metadata-filenames","_rev":"4-e9cfce8c42cfd80910200f667caa9930"},{"is_attachment":false,"metadata":{"FORM1":{"submitActionFORM1":"Save and New","annotationFORM1":true,"uncertaintyFORM1":false,"formaccessinheritFORM1":false,"visibleFORM1":true}},"_id":"project-metadata-forms","_rev":"4-dd8a707accf74b368e0764fadf9ea30a"},{"is_attachment":false,"metadata":false,"_id":"project-metadata-ispublic","_rev":"4-e42f3470517855484149a572b0fe6198"},{"is_attachment":false,"metadata":false,"_id":"project-metadata-isrequest","_rev":"4-e4b91c2d390ad555593e3d1d86e492e9"},{"is_attachment":false,"metadata":"","_id":"project-metadata-lead_institution","_rev":"4-f82e2bedc5a7c25e92597f8b8669ad84"},{"is_attachment":false,"metadata":{},"_id":"project-metadata-meta","_rev":"4-2a4fc5d7d47b20b98c0b1b6bc5570ccc"},{"is_attachment":false,"metadata":"Groundwater pump test - Maules Creek September 2022","_id":"project-metadata-pre_description","_rev":"4-40bd514755b4a2380bb9b5a4e5786e6b"},{"is_attachment":false,"metadata":"","_id":"project-metadata-project_lead","_rev":"4-318377ce0d9b9a074afe0b49ef12a6a4"},{"is_attachment":false,"metadata":"draft","_id":"project-metadata-project_status","_rev":"4-f9c5433c0561e5fd75886092afefa334"},{"is_attachment":false,"metadata":{"project_status":"draft","accesses":["admin","moderator","team"],"forms":{"FORM1":{"submitActionFORM1":"Save and New","annotationFORM1":true,"uncertaintyFORM1":false,"formaccessinheritFORM1":false,"visibleFORM1":true}},"sections":{"FORM1SECTION1":{"sectiondescriptionFORM1SECTION1":"Sample label -  Bore ID & replicate. Plus start/finish time and water level."},"FORM1SECTION2":{"sectiondescriptionFORM1SECTION2":"Pre and post purge phys chem data - from probe"},"FORM1SECTION3":{"sectiondescriptionFORM1SECTION3":"Have you collected everything you need from each location?"}},"meta":{},"access":{"accessFORM1":["admin"]},"ispublic":false,"isrequest":false,"behavious":{},"project_lead":"","lead_institution":"","pre_description":"Groundwater pump test - Maules Creek September 2022","filenames":[]},"_id":"project-metadata-projectvalue","_rev":"4-318bcf719dc77aa2420d488c053399cf"},{"is_attachment":false,"metadata":{"FORM1SECTION1":{"sectiondescriptionFORM1SECTION1":"Sample label -  Bore ID & replicate. Plus start/finish time and water level."},"FORM1SECTION2":{"sectiondescriptionFORM1SECTION2":"Pre and post purge phys chem data - from probe"},"FORM1SECTION3":{"sectiondescriptionFORM1SECTION3":"Have you collected everything you need from each location?"}},"_id":"project-metadata-sections","_rev":"4-26f9acee11b0914e4c5617d950794e8a"},{"fields":{"newfield21f1c4db":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":true,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"Bore ID"},"FormHelperTextProps":{},"id":"newfield21f1c4db","name":"newfield21f1c4db"},"validationSchema":[["yup.number"],["yup.required"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield838d45f0":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":true,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"Sample replicate"},"FormHelperTextProps":{},"id":"newfield838d45f0","name":"newfield838d45f0"},"validationSchema":[["yup.number"],["yup.required"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldf96732e9":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":"measure to top of casing ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"Pre pump depth to water (m)"},"FormHelperTextProps":{},"id":"newfieldf96732e9","name":"newfieldf96732e9"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldb316c604":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":"measure to top of casing ","variant":"outlined","required":false,"InputProps":{"type":"text"},"SelectProps":{},"InputLabelProps":{"label":"Post pump depth to water (m)"},"FormHelperTextProps":{},"id":"newfieldb316c604","name":"newfieldb316c604"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield032bc9c2":{"component-namespace":"faims-custom","component-name":"RandomStyle","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","label":"Pre purge phys chem","variant_style":"h4","html_tag":"","id":"newfield032bc9c2","name":"newfield032bc9c2"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield4b03bb84":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"Temp (C)"},"FormHelperTextProps":{},"id":"newfield4b03bb84","name":"newfield4b03bb84"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfielda6d5aa2c":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"DO (mg/l)"},"FormHelperTextProps":{},"id":"newfielda6d5aa2c","name":"newfielda6d5aa2c"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield5aa2e342":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"EC (uS/cm)"},"FormHelperTextProps":{},"id":"newfield5aa2e342","name":"newfield5aa2e342"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield49ae5e97":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"pH"},"FormHelperTextProps":{},"id":"newfield49ae5e97","name":"newfield49ae5e97"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldb181ebec":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"ORP"},"FormHelperTextProps":{},"id":"newfieldb181ebec","name":"newfieldb181ebec"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield8d785662":{"component-namespace":"faims-custom","component-name":"RandomStyle","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","label":"Post purge phys chem","variant_style":"h4","html_tag":"","id":"newfield8d785662","name":"newfield8d785662"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldcf2b9fbd":{"component-namespace":"faims-custom","component-name":"TakePhoto","type-returned":"faims-attachment::Files","component-parameters":{"fullWidth":true,"name":"newfieldcf2b9fbd","id":"newfieldcf2b9fbd","helpertext":"Take Photo","variant":"outlined","label":"Pre purge logger screen"},"validationSchema":[["yup.object"],["yup.nullable"]],"initialValue":null,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldb392581d":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"Temp (C)"},"FormHelperTextProps":{},"id":"newfieldb392581d","name":"newfieldb392581d"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldb68ce4d9":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"DO (mg/L)"},"FormHelperTextProps":{},"id":"newfieldb68ce4d9","name":"newfieldb68ce4d9"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield073fffec":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"EC (uS/cm)"},"FormHelperTextProps":{},"id":"newfield073fffec","name":"newfield073fffec"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield97ed0c46":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"pH"},"FormHelperTextProps":{},"id":"newfield97ed0c46","name":"newfield97ed0c46"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield2305d959":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::Integer","component-parameters":{"fullWidth":true,"helperText":" ","variant":"outlined","required":false,"InputProps":{"type":"number"},"SelectProps":{},"InputLabelProps":{"label":"ORP"},"FormHelperTextProps":{},"id":"newfield2305d959","name":"newfield2305d959"},"validationSchema":[["yup.number"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield960b54a4":{"component-namespace":"faims-custom","component-name":"TakePhoto","type-returned":"faims-attachment::Files","component-parameters":{"fullWidth":true,"name":"newfield960b54a4","id":"newfield960b54a4","helpertext":"Take Photo","variant":"outlined","label":"Post purge logger screen"},"validationSchema":[["yup.object"],["yup.nullable"]],"initialValue":null,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield08f15a6d":{"component-namespace":"faims-custom","component-name":"RandomStyle","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":"This is sub Title","variant":"outlined","label":"Sample Collection Checklist","variant_style":"h4","html_tag":"","id":"newfield08f15a6d","name":"newfield08f15a6d"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield259c6e58":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield259c6e58","id":"newfield259c6e58","required":false,"type":"checkbox","FormControlLabelProps":{"label":"ICP-OES & MS - Cations & Metals - Filtered"},"FormHelperTextProps":{"children":"20ml acid washed bottle"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield3ed1c2c4":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield3ed1c2c4","id":"newfield3ed1c2c4","required":false,"type":"checkbox","FormControlLabelProps":{"label":"FIA - Nutrients (NO & NH4) - Filtered"},"FormHelperTextProps":{"children":"50ml falcon tube"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield7106a951":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield7106a951","id":"newfield7106a951","required":false,"type":"checkbox","FormControlLabelProps":{"label":"LC-OCD - DOC - Filtered"},"FormHelperTextProps":{"children":"50ml falcon tube"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield32e86d6d":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield32e86d6d","id":"newfield32e86d6d","required":false,"type":"checkbox","FormControlLabelProps":{"label":"Organic FTICR-MS"},"FormHelperTextProps":{"children":"125ml "}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldaea05982":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfieldaea05982","id":"newfieldaea05982","required":false,"type":"checkbox","FormControlLabelProps":{"label":"GW isotope - not filtered"},"FormHelperTextProps":{"children":"30ml glass vial"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield7f100914":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield7f100914","id":"newfield7f100914","required":false,"type":"checkbox","FormControlLabelProps":{"label":"Radon"},"FormHelperTextProps":{"children":"200ml glass bottle "}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldd87ea632":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfieldd87ea632","id":"newfieldd87ea632","required":false,"type":"checkbox","FormControlLabelProps":{"label":"Alkalinity - not filtered"},"FormHelperTextProps":{"children":"250ml Schott bottle"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield525f3dc8":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield525f3dc8","id":"newfield525f3dc8","required":false,"type":"checkbox","FormControlLabelProps":{"label":"Fluorescence "},"FormHelperTextProps":{"children":"50ml falcon tube"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield9a770fb6":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield9a770fb6","id":"newfield9a770fb6","required":false,"type":"checkbox","FormControlLabelProps":{"label":"eDNA "},"FormHelperTextProps":{"children":"5L bleached container"}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield9ffe2a34":{"component-namespace":"faims-custom","component-name":"Checkbox","type-returned":"faims-core::Bool","component-parameters":{"name":"newfield9ffe2a34","id":"newfield9ffe2a34","required":false,"type":"checkbox","FormControlLabelProps":{"label":"Tube sterilized "},"FormHelperTextProps":{"children":" "}},"validationSchema":[["yup.bool"]],"initialValue":false,"access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfielda10b1415":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":"Set time when logger is removed","variant":"outlined","required":false,"InputProps":{"type":"text"},"SelectProps":{},"InputLabelProps":{"label":"Time Start"},"FormHelperTextProps":{},"id":"newfielda10b1415","name":"newfielda10b1415"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfieldc90acc45":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":"Set time when logger is replaced","variant":"outlined","required":false,"InputProps":{"type":"text"},"SelectProps":{},"InputLabelProps":{"label":"Time Finish"},"FormHelperTextProps":{},"id":"newfieldc90acc45","name":"newfieldc90acc45"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}}},"fviews":{"FORM1SECTION1":{"fields":["newfield21f1c4db","newfield838d45f0","newfielda10b1415","newfieldf96732e9","newfieldb316c604","newfieldc90acc45"],"uidesign":"form","label":"General"},"FORM1SECTION2":{"fields":["newfield032bc9c2","newfield4b03bb84","newfielda6d5aa2c","newfield5aa2e342","newfield49ae5e97","newfieldb181ebec","newfieldcf2b9fbd","newfield8d785662","newfieldb392581d","newfieldb68ce4d9","newfield073fffec","newfield97ed0c46","newfield2305d959","newfield960b54a4"],"uidesign":"form","label":"Phys Chem"},"FORM1SECTION3":{"fields":["newfield08f15a6d","newfield259c6e58","newfield3ed1c2c4","newfield7106a951","newfield525f3dc8","newfield32e86d6d","newfieldaea05982","newfield7f100914","newfieldd87ea632","newfield9a770fb6","newfield9ffe2a34"],"uidesign":"form","label":"Sample Checklist"}},"viewsets":{"FORM1":{"views":["FORM1SECTION1","FORM1SECTION2","FORM1SECTION3"],"label":"Pump Test Module"}},"visible_types":["FORM1"],"_id":"ui-specification","_rev":"4-1025fb5fb6007be6d4e4ae61bca48a9b"}]
+[
+    {
+        "references":
+        [],
+        "_id": "local-autoincrementers",
+        "_rev": "3-df8fb66c0aefee094ce52b1a040337c8"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        {
+            "accessFORM1":
+            [
+                "admin"
+            ]
+        },
+        "_id": "project-metadata-access",
+        "_rev": "3-fbfec0ffa29e2c4706d86af4a9883694"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        [
+            "admin",
+            "moderator",
+            "team"
+        ],
+        "_id": "project-metadata-accesses",
+        "_rev": "3-300f24ddf1332f2dc0f6f4f60ba9ac44"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        {},
+        "_id": "project-metadata-behavious",
+        "_rev": "3-4f06ff30ad227926278be362b9a903ba"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        [],
+        "_id": "project-metadata-filenames",
+        "_rev": "3-32ea7864fd8f057c860fcd5144be9142"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        {
+            "FORM1":
+            {
+                "submitActionFORM1": "Save and New",
+                "annotationFORM1": true,
+                "uncertaintyFORM1": false,
+                "formaccessinheritFORM1": false,
+                "visibleFORM1": true
+            }
+        },
+        "_id": "project-metadata-forms",
+        "_rev": "3-1fa915e5047f7a4be314e0ba7576e1a6"
+    },
+    {
+        "is_attachment": false,
+        "metadata": false,
+        "_id": "project-metadata-ispublic",
+        "_rev": "3-e2f66d3a2b85b71d432488adad341ba1"
+    },
+    {
+        "is_attachment": false,
+        "metadata": false,
+        "_id": "project-metadata-isrequest",
+        "_rev": "3-46694deec9bc4fbb15577808eee1ae20"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "",
+        "_id": "project-metadata-lead_institution",
+        "_rev": "3-51377f06ad73f69b6a213563a96e9d34"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        {},
+        "_id": "project-metadata-meta",
+        "_rev": "3-f061ea60be26bc6fbd96b6127d178fd6"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "Groundwater pump test - Maules Creek September 2022",
+        "_id": "project-metadata-pre_description",
+        "_rev": "3-7c73b982a2531e23b43fcff3f89b5067"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "",
+        "_id": "project-metadata-project_lead",
+        "_rev": "3-626a13aa7baa3305fcc9a0ae6619a5ad"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "New",
+        "_id": "project-metadata-project_status",
+        "_rev": "3-02ccde79fc0c20bceb72b9e6b8bfdac3"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        {
+            "project_status": "New",
+            "accesses":
+            [
+                "admin",
+                "moderator",
+                "team"
+            ],
+            "forms":
+            {
+                "FORM1":
+                {
+                    "submitActionFORM1": "Save and New",
+                    "annotationFORM1": true,
+                    "uncertaintyFORM1": false,
+                    "formaccessinheritFORM1": false,
+                    "visibleFORM1": true
+                }
+            },
+            "sections":
+            {
+                "FORM1SECTION1":
+                {
+                    "sectiondescriptionFORM1SECTION1": "Sample label -  Bore ID & replicate. Plus start/finish time and water level."
+                },
+                "FORM1SECTION2":
+                {
+                    "sectiondescriptionFORM1SECTION2": "Pre and post purge phys chem data - from probe"
+                },
+                "FORM1SECTION3":
+                {
+                    "sectiondescriptionFORM1SECTION3": "Have you collected everything you need from each location?"
+                }
+            },
+            "meta":
+            {},
+            "access":
+            {
+                "accessFORM1":
+                [
+                    "admin"
+                ]
+            },
+            "ispublic": false,
+            "isrequest": false,
+            "behavious":
+            {},
+            "project_lead": "",
+            "lead_institution": "",
+            "pre_description": "Groundwater pump test - Maules Creek September 2022",
+            "filenames":
+            []
+        },
+        "_id": "project-metadata-projectvalue",
+        "_rev": "3-d4140cc6bbdacf3e25e34ec3f33ac389"
+    },
+    {
+        "is_attachment": false,
+        "metadata":
+        {
+            "FORM1SECTION1":
+            {
+                "sectiondescriptionFORM1SECTION1": "Sample label -  Bore ID & replicate. Plus start/finish time and water level."
+            },
+            "FORM1SECTION2":
+            {
+                "sectiondescriptionFORM1SECTION2": "Pre and post purge phys chem data - from probe"
+            },
+            "FORM1SECTION3":
+            {
+                "sectiondescriptionFORM1SECTION3": "Have you collected everything you need from each location?"
+            }
+        },
+        "_id": "project-metadata-sections",
+        "_rev": "3-947fe3424f3e497591f872ed67cacaa6"
+    },
+    {
+        "fields":
+        {
+            "newfield21f1c4db":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": true,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Bore ID"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield21f1c4db",
+                    "name": "newfield21f1c4db"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ],
+                    [
+                        "yup.required"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield838d45f0":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": true,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Sample replicate"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield838d45f0",
+                    "name": "newfield838d45f0"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ],
+                    [
+                        "yup.required"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldf96732e9":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "measure to top of casing ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Pre pump depth to water (m)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldf96732e9",
+                    "name": "newfieldf96732e9"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldb316c604":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "measure to top of casing ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "text"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Post pump depth to water (m)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldb316c604",
+                    "name": "newfieldb316c604"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield032bc9c2":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "label": "Pre purge phys chem",
+                    "variant_style": "h4",
+                    "html_tag": "",
+                    "id": "newfield032bc9c2",
+                    "name": "newfield032bc9c2"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield4b03bb84":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Temp (C)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield4b03bb84",
+                    "name": "newfield4b03bb84"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfielda6d5aa2c":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "DO (mg/l)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfielda6d5aa2c",
+                    "name": "newfielda6d5aa2c"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield5aa2e342":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "EC (uS/cm)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield5aa2e342",
+                    "name": "newfield5aa2e342"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield49ae5e97":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "pH"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield49ae5e97",
+                    "name": "newfield49ae5e97"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldb181ebec":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "ORP"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldb181ebec",
+                    "name": "newfieldb181ebec"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield8d785662":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "label": "Post purge phys chem",
+                    "variant_style": "h4",
+                    "html_tag": "",
+                    "id": "newfield8d785662",
+                    "name": "newfield8d785662"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldcf2b9fbd":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "TakePhoto",
+                "type-returned": "faims-attachment::Files",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "name": "newfieldcf2b9fbd",
+                    "id": "newfieldcf2b9fbd",
+                    "helpertext": "Take Photo",
+                    "variant": "outlined",
+                    "label": "Pre purge logger screen"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.object"
+                    ],
+                    [
+                        "yup.nullable"
+                    ]
+                ],
+                "initialValue": null,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldb392581d":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Temp (C)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldb392581d",
+                    "name": "newfieldb392581d"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldb68ce4d9":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "DO (mg/L)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldb68ce4d9",
+                    "name": "newfieldb68ce4d9"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield073fffec":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "EC (uS/cm)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield073fffec",
+                    "name": "newfield073fffec"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield97ed0c46":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "pH"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield97ed0c46",
+                    "name": "newfield97ed0c46"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield2305d959":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": " ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "ORP"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield2305d959",
+                    "name": "newfield2305d959"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield960b54a4":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "TakePhoto",
+                "type-returned": "faims-attachment::Files",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "name": "newfield960b54a4",
+                    "id": "newfield960b54a4",
+                    "helpertext": "Take Photo",
+                    "variant": "outlined",
+                    "label": "Post purge logger screen"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.object"
+                    ],
+                    [
+                        "yup.nullable"
+                    ]
+                ],
+                "initialValue": null,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield08f15a6d":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "This is sub Title",
+                    "variant": "outlined",
+                    "label": "Sample Collection Checklist",
+                    "variant_style": "h4",
+                    "html_tag": "",
+                    "id": "newfield08f15a6d",
+                    "name": "newfield08f15a6d"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield259c6e58":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield259c6e58",
+                    "id": "newfield259c6e58",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "ICP-OES & MS - Cations & Metals - Filtered"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "20ml acid washed bottle"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield3ed1c2c4":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield3ed1c2c4",
+                    "id": "newfield3ed1c2c4",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "FIA - Nutrients (NO & NH4) - Filtered"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "50ml falcon tube"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield7106a951":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield7106a951",
+                    "id": "newfield7106a951",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "LC-OCD - DOC - Filtered"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "50ml falcon tube"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield32e86d6d":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield32e86d6d",
+                    "id": "newfield32e86d6d",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "Organic FTICR-MS"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "125ml "
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldaea05982":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfieldaea05982",
+                    "id": "newfieldaea05982",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "GW isotope - not filtered"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "30ml glass vial"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield7f100914":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield7f100914",
+                    "id": "newfield7f100914",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "Radon"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "200ml glass bottle "
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldd87ea632":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfieldd87ea632",
+                    "id": "newfieldd87ea632",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "Alkalinity - not filtered"
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "250ml Schott bottle"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield525f3dc8":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield525f3dc8",
+                    "id": "newfield525f3dc8",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "Fluorescence "
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "50ml falcon tube"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield9a770fb6":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield9a770fb6",
+                    "id": "newfield9a770fb6",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "eDNA "
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": "5L bleached container"
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield9ffe2a34":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "Checkbox",
+                "type-returned": "faims-core::Bool",
+                "component-parameters":
+                {
+                    "name": "newfield9ffe2a34",
+                    "id": "newfield9ffe2a34",
+                    "required": false,
+                    "type": "checkbox",
+                    "FormControlLabelProps":
+                    {
+                        "label": "Tube sterilized "
+                    },
+                    "FormHelperTextProps":
+                    {
+                        "children": " "
+                    }
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.bool"
+                    ]
+                ],
+                "initialValue": false,
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfielda10b1415":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Datetime",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "Set time when logger is removed",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "datetime-local"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Time Start"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfielda10b1415",
+                    "name": "newfielda10b1415"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldc90acc45":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Datetime",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "Set time when logger is replaced",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "datetime-local"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Time Finish"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldc90acc45",
+                    "name": "newfieldc90acc45"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield0e96f8b0":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "TemplatedStringField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "name": "newfield0e96f8b0",
+                    "id": "newfield0e96f8b0",
+                    "helperText": "Bore ID-sample replicate number",
+                    "variant": "outlined",
+                    "required": true,
+                    "template": "{{newfield21f1c4db}}-{{newfield838d45f0}}",
+                    "InputProps":
+                    {
+                        "type": "text",
+                        "readOnly": true
+                    },
+                    "InputLabelProps":
+                    {
+                        "label": "Groundwater Pump Record ID"
+                    },
+                    "hrid": true,
+                    "numberfield": 2,
+                    "fieldselect10": "newfield21f1c4db",
+                    "fieldselect11": "newfield838d45f0"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ],
+                    [
+                        "yup.required"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "hridFORM1":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "TemplatedStringField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "name": "hridFORM1",
+                    "id": "hridFORM1",
+                    "helperText": "Bore ID-sample replicate number",
+                    "variant": "outlined",
+                    "required": true,
+                    "template": "{{newfield21f1c4db}}-{{newfield838d45f0}}",
+                    "InputProps":
+                    {
+                        "type": "text",
+                        "readOnly": true
+                    },
+                    "InputLabelProps":
+                    {
+                        "label": "Groundwater Pump Record ID"
+                    },
+                    "hrid": true,
+                    "linked": "newfield0e96f8b0",
+                    "numberfield": 2,
+                    "fieldselect10": "newfield21f1c4db",
+                    "fieldselect11": "newfield838d45f0"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ],
+                    [
+                        "yup.required"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            }
+        },
+        "fviews":
+        {
+            "FORM1SECTION1":
+            {
+                "fields":
+                [
+                    "hridFORM1",
+                    "newfield21f1c4db",
+                    "newfield838d45f0",
+                    "newfielda10b1415",
+                    "newfieldf96732e9",
+                    "newfieldb316c604",
+                    "newfieldc90acc45"
+                ],
+                "uidesign": "form",
+                "label": "General"
+            },
+            "FORM1SECTION2":
+            {
+                "fields":
+                [
+                    "newfield032bc9c2",
+                    "newfield4b03bb84",
+                    "newfielda6d5aa2c",
+                    "newfield5aa2e342",
+                    "newfield49ae5e97",
+                    "newfieldb181ebec",
+                    "newfieldcf2b9fbd",
+                    "newfield8d785662",
+                    "newfieldb392581d",
+                    "newfieldb68ce4d9",
+                    "newfield073fffec",
+                    "newfield97ed0c46",
+                    "newfield2305d959",
+                    "newfield960b54a4"
+                ],
+                "uidesign": "form",
+                "label": "Phys Chem"
+            },
+            "FORM1SECTION3":
+            {
+                "fields":
+                [
+                    "newfield08f15a6d",
+                    "newfield259c6e58",
+                    "newfield3ed1c2c4",
+                    "newfield7106a951",
+                    "newfield525f3dc8",
+                    "newfield32e86d6d",
+                    "newfieldaea05982",
+                    "newfield7f100914",
+                    "newfieldd87ea632",
+                    "newfield9a770fb6",
+                    "newfield9ffe2a34"
+                ],
+                "uidesign": "form",
+                "label": "Sample Checklist"
+            }
+        },
+        "viewsets":
+        {
+            "FORM1":
+            {
+                "views":
+                [
+                    "FORM1SECTION1",
+                    "FORM1SECTION2",
+                    "FORM1SECTION3"
+                ],
+                "label": "Pump Test Module"
+            }
+        },
+        "visible_types":
+        [
+            "FORM1"
+        ],
+        "_id": "ui-specification",
+        "_rev": "3-9d0eeb787d71c267c914e41f7c7174d8"
+    }
+]
