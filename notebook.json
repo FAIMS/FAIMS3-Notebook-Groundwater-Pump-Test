@@ -3,7 +3,7 @@
         "references":
         [],
         "_id": "local-autoincrementers",
-        "_rev": "5-cbd05a3c049fc4bcbf6bcd47a5270674"
+        "_rev": "2-657a00178feb832c409d7d1b9084c224"
     },
     {
         "is_attachment": false,
@@ -15,7 +15,7 @@
             ]
         },
         "_id": "project-metadata-access",
-        "_rev": "5-397be872c5ca25bcd433843bf4ec75ea"
+        "_rev": "2-78b75cc63a0d1a7d9350a9089186aff2"
     },
     {
         "is_attachment": false,
@@ -26,21 +26,21 @@
             "team"
         ],
         "_id": "project-metadata-accesses",
-        "_rev": "5-4cdf4f8ce30eef8f0066816c8b17b181"
+        "_rev": "2-fb717da8ae39cd1c1f2134a70181fc7b"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-behavious",
-        "_rev": "5-1fc504917c0913f49897679dbddb15a6"
+        "_rev": "2-1434567f4374ea530831804945fb67df"
     },
     {
         "is_attachment": false,
         "metadata":
         [],
         "_id": "project-metadata-filenames",
-        "_rev": "5-8a67be84a83dbf6ed646355b9048fdc3"
+        "_rev": "2-556bcb233f6b1168a7b02ccd89cb9271"
     },
     {
         "is_attachment": false,
@@ -56,50 +56,50 @@
             }
         },
         "_id": "project-metadata-forms",
-        "_rev": "5-56b0e9d9531e99bab40317e7938239eb"
+        "_rev": "2-074d73c45f2a61ee4336a330509cdb98"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-ispublic",
-        "_rev": "5-6a0ef8721b6e3c0a781a4a189ad23a31"
+        "_rev": "2-6cf3ccfeecccddc26edca3925b3f3fb3"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-isrequest",
-        "_rev": "5-4cb00bbd628927cc8dfa498d955746c5"
+        "_rev": "2-38c9a326e94a7303fde2705e4ff07204"
     },
     {
         "is_attachment": false,
         "metadata": "",
         "_id": "project-metadata-lead_institution",
-        "_rev": "5-fa47055a37db3097f474e0f4888a0997"
+        "_rev": "2-82159af4bd7a7b742b4ba3d5afcad3e2"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-meta",
-        "_rev": "5-29e276b5d13eb74d69aa26ec4b15b285"
+        "_rev": "2-43c19e4040a2063d77c9bc0de44d3b8d"
     },
     {
         "is_attachment": false,
         "metadata": "Groundwater pump test - Maules Creek September 2022",
         "_id": "project-metadata-pre_description",
-        "_rev": "5-1859676b87974c25f922b370dc6a691e"
+        "_rev": "2-3be79d2a8e50dd4324af2b2ca36d4973"
     },
     {
         "is_attachment": false,
         "metadata": "",
         "_id": "project-metadata-project_lead",
-        "_rev": "5-746ae3c6938e98f6ac23fe670618e427"
+        "_rev": "2-8cc7003d4fde75c6dd0648d3508c5b94"
     },
     {
         "is_attachment": false,
         "metadata": "New",
         "_id": "project-metadata-project_status",
-        "_rev": "5-cbe3312e6ad0741772b2040f1c8e8895"
+        "_rev": "2-e013169d212f50f2e2a2c509c9942443"
     },
     {
         "is_attachment": false,
@@ -158,7 +158,7 @@
             []
         },
         "_id": "project-metadata-projectvalue",
-        "_rev": "5-1f14b42f787baaf0d8df012243718784"
+        "_rev": "2-3ba7282a3fc69a979e633f4c57766bb8"
     },
     {
         "is_attachment": false,
@@ -178,12 +178,12 @@
             }
         },
         "_id": "project-metadata-sections",
-        "_rev": "5-e1be4a30ec31b82f1d26577c9ecb53cd"
+        "_rev": "2-111b86c6013c7a72df65ff7c4a11ae8e"
     },
     {
         "fields":
         {
-        	"newfield21f1c4db":
+            "newfield21f1c4db":
             {
                 "component-namespace": "formik-material-ui",
                 "component-name": "TextField",
@@ -232,7 +232,6 @@
                     }
                 }
             },
-            
             "newfield838d45f0":
             {
                 "component-namespace": "formik-material-ui",
@@ -340,7 +339,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "measure to top of casing ",
+                    "helperText": "",
                     "variant": "outlined",
                     "required": false,
                     "InputProps":
@@ -351,7 +350,7 @@
                     {},
                     "InputLabelProps":
                     {
-                        "label": "Total depth to water (m)"
+                        "label": "Total bore depth (m)"
                     },
                     "FormHelperTextProps":
                     {},
@@ -1802,6 +1801,6 @@
             "FORM1"
         ],
         "_id": "ui-specification",
-        "_rev": "5-26234fc88398590754af4e83476042b9"
+        "_rev": "2-2228c9ff109474b95acd784317101db3"
     }
 ]
