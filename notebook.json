@@ -332,6 +332,54 @@
                     }
                 }
             },
+            "totaldepth":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::Integer",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "measure to top of casing ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Total depth to water (m)"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "totaldepth",
+                    "name": "totaldepth"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
             "newfieldb316c604":
             {
                 "component-namespace": "formik-material-ui",
@@ -345,7 +393,7 @@
                     "required": false,
                     "InputProps":
                     {
-                        "type": "text"
+                        "type": "number"
                     },
                     "SelectProps":
                     {},
@@ -1687,6 +1735,7 @@
                     "newfield838d45f0",
                     "newfielda10b1415",
                     "newfieldf96732e9",
+                    "totaldepth",
                     "newfieldb316c604",
                     "newfieldc90acc45"
                 ],
